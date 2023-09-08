@@ -2,7 +2,4 @@
 {"dg-publish":true,"permalink":"/home/","tags":["gardenEntry"]}
 ---
 
----
-dg-home: true
-dg-publish: true
----
+Welcome to my data vault
