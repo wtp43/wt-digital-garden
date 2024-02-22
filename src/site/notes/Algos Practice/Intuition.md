@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/algos-practice/intuition/"}
 ---
 
->[!summary]+ Contents
+>- [ ] [!summary]+ Contents
 >```toc
 >style: number
 >min_depth:1
