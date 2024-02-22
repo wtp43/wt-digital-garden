@@ -7,5 +7,5 @@
 >[!example]
 >![Pasted image 20221208173515.png](/img/user/attachments/Pasted%20image%2020221208173515.png)
 
-# Find Strongy Connected Components
+# Find Strongly Connected Components
 - [[Algos/Kosaraju's Algorithm\|Kosaraju's Algorithm]]
