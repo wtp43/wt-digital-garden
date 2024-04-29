@@ -69,7 +69,7 @@ class Union_find:
 
 ```python
 def longest_consecutive_sequence(nums):
-	seen = {}
+	d = {}
 	uf = union_find(len(nums))
 	for i, num in enumerate(nums):
 		if num in d:
