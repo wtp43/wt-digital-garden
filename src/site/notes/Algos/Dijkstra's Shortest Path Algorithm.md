@@ -43,7 +43,7 @@ def lazy_dijkstra(self, start):
 			continue
 		seen.add(index)
 		for u,v,w in self.get_edges(index):
-			if vis[v]: 
+			if seen[v]: 
 				continue
 			new_dist = dist[index] + w
 			if new_dist < dist[v]:
@@ -51,7 +51,6 @@ def lazy_dijkstra(self, start):
 				prev[v] = u
 				heapq.heappush(pq, (new_dist, v))
 	return dist, prev
-
 ```
 
 - Optimization: `if dist[index] < min_value: continue`
